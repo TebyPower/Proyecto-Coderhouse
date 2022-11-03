@@ -1,0 +1,656 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*mobile first*/
+
+/* nav bar */
+#body_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.logo {
+    height: 70px;
+    width: 80px;
+}
+
+.header__nav {
+    display: none;
+}
+
+.navbar__movil {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    background-color: #97725E;
+}
+
+.titulo_navbar {
+    display: block;
+    margin-bottom: -1rem;
+    font-size: 50px;
+    font-family: 'Beau Rivage', cursive;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+}
+
+.header__nav__ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    font-size: 25px;
+}
+
+.nav-item {
+    margin-bottom: 10px;
+}
+
+.contactanos {
+    display: block;
+}
+
+.header__nav__ul {
+    justify-self: center;
+}
+
+.contacto {
+    display: flex;
+    justify-self: center;
+    right: 30px;
+
+}
+
+.carta {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+/* body */
+
+.tituloFoto {
+    display: none;
+}
+
+.article1 {
+    justify-content: space-around;
+}
+
+.text {
+    display: grid;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.text1 {
+    background-image: url(../img/Perros-con-sed.jpg);
+    background-size: cover;
+}
+
+.text2 {
+    background-image: url(../img/79.jpg);
+    background-size: cover;
+}
+
+.text3 {
+    background-image: url(../img/map\ y\ vidio.jpg);
+    background-size: cover;
+}
+
+.text_M {
+    background-color: #00000028;
+    border-radius: 2rem;
+}
+
+.h2_movil {
+    font-size: 40px;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+    display: block;
+    background-color: #97725E;
+}
+
+footer div ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0 0 20px 0;
+}
+
+.footer_Text {
+    display: none;
+}
+
+footer div h3 {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+    color: aliceblue;
+}
+
+footer img {
+    height: 80px;
+    width: 80px;
+}
+
+/* contactanos */
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 1000px;
+    background-image: url(../img/gatoperro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+legend {
+    text-decoration: underline;
+    padding-top: 60px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #000;
+    text-shadow: 2px 2px 2px white;
+}
+
+fieldset div {
+    padding: 8px;
+}
+
+/*FAMILIA*/
+#body_grid_familia {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+#main_familia {
+    background-image: url(../img/map\ y\ vidio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+
+.h2_famili {
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+
+.c1,
+.c2,
+.c3,
+.c4 {
+    padding: 40px;
+}
+
+/* responsive */
+/*tablets*/
+
+@media screen and (min-width:768px) {
+    #body_grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    .logo {
+        height: 70px;
+        width: 80px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .navbar__movil {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        background-color: #97725E;
+    }
+
+    .titulo_navbar {
+        display: block;
+        margin-bottom: -1rem;
+        font-size: 60px;
+        font-family: 'Beau Rivage', cursive;
+        color: aliceblue;
+        text-shadow: 2px 2px 2px black;
+    }
+
+
+
+    .header__nav__ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        font-size: 25px
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .contactanos {
+        display: block;
+    }
+
+    .header__nav__ul {
+        justify-self: center;
+    }
+
+    .contacto {
+        display: flex;
+        justify-self: center;
+        right: 30px;
+
+    }
+
+    .carta {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    /* body */
+
+    .tituloFoto {
+        display: none;
+    }
+
+    .article1 {
+        justify-content: space-around;
+    }
+
+    .text {
+        display: grid;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 30px;
+        padding: 30px;
+        font-style: italic;
+        text-shadow: 2px 2px 2px black;
+        color: aliceblue;
+        font-weight: bolder;
+    }
+
+    .text1 {
+        background-image: url(../img/Perros-con-sed.jpg);
+        background-size: cover;
+    }
+
+    .text2 {
+        background-image: url(../img/79.jpg);
+        background-size: cover;
+    }
+
+    .text3 {
+        background-image: url(../img/map\ y\ vidio.jpg);
+        background-size: cover;
+    }
+
+    .text_M {
+        background-color: #00000028;
+        border-radius: 2rem;
+    }
+
+    .h2_movil {
+        font-size: 40px;
+        font-weight: lighter;
+        text-decoration: underline;
+    }
+
+    /* Footer */
+
+    footer {
+        display: block;
+        background-color: #97725E;
+    }
+
+    footer div ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        padding: 0 0 20px 0;
+    }
+
+    .footer_Text {
+        display: none;
+    }
+
+    footer div h3 {
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+        text-shadow: 2px 2px 2px black;
+        color: aliceblue;
+    }
+
+    footer img {
+        height: 80px;
+        width: 80px;
+    }
+
+}
+
+
+/*Desktop*/
+@media (min-width:1028px) {
+
+    .header__nav {
+        display: flex;
+        align-items: center;
+        background-color: #97725E;
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .navbar__movil {
+        display: none;
+    }
+
+    .logo {
+        height: 70px;
+        width: 80px;
+        position: relative;
+        left: 30px;
+    }
+
+    .carta {
+        display: block;
+        height: 30px;
+        position: relative;
+        top: 4px
+    }
+
+    .header__nav {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .header__nav__ul {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 0%;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    li {
+        list-style: none;
+        margin-left: 40px;
+    }
+
+    ul ul {
+        display: none;
+        position: absolute;
+        padding: 10px 0 10px 0;
+    }
+
+    ul ul li {
+        display: block;
+    }
+
+    ul li:hover ul {
+        display: block;
+    }
+
+    .nav__a {
+        text-decoration: line;
+        color: whitesmoke;
+    }
+
+    .nav__a:hover {
+        color: #F49F0A;
+    }
+
+    .contacto {
+        font-size: 30px;
+        display: flex;
+        position: relative;
+        right: 30px;
+    }
+
+    .a__a {
+        display: none;
+        text-decoration: none;
+        background-color: #AED14D;
+        background-size: cover;
+    }
+
+    .a__a:hover {
+        color: white;
+    }
+
+
+    /* body */
+
+    .tituloFoto {
+        display: block;
+    }
+
+    .article1 {
+        justify-content: space-around;
+        padding-top: 70px;
+    }
+
+    h1 {
+        font-size: 100px;
+        font-family: 'Beau Rivage', cursive;
+        font-weight: lighter;
+        color: aliceblue;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .parallax1 {
+        background-image: url(../img/MNS65LIB3ZENJJKREPXJQFF4AQ.jpg);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .parallax2 {
+        background-image: url(../img/adopta.jpg);
+    }
+
+    .parallax3 {
+        background-image: url(../img/IUMFOSNWHZACPJRM35WJGML76Q.jpg);
+    }
+
+    .parallax {
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding: 40vh 0 40vh 0;
+    }
+
+    .text {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        background: rgb(0, 212, 255);
+        background: linear-gradient(163deg, rgba(0, 212, 255, 1) 30%, rgba(12, 49, 255, 1) 51%, rgba(143, 160, 255, 1) 67%);
+        font-size: 30px;
+        padding: 30px;
+        font-style: italic;
+    }
+
+    .h2_movil {
+        text-decoration: underline;
+        padding-bottom: 20px;
+        font-size: 80px
+    }
+
+    h2 {
+        text-decoration: underline;
+        padding-bottom: 20px;
+        font-size: 80px
+    }
+
+    h3 {
+        text-decoration: underline;
+        padding: 20px 0 20px 0;
+        font-size: 25px;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text_M {
+        color: black;
+        text-shadow: none;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .text3 {
+        display: flex;
+        justify-content: space-around;
+        background-image: none;
+        background: rgb(0, 212, 255);
+        background: linear-gradient(163deg, rgba(0, 212, 255, 1) 30%, rgba(12, 49, 255, 1) 51%, rgba(143, 160, 255, 1) 67%);
+    }
+
+
+    .text3 p {
+        padding: 5px;
+    }
+
+    /*  Footer  */
+    .footer_Text {
+        display: block;
+        color: rgb(131, 49, 131);
+        text-decoration: underline;
+        text-shadow: 1px 1px 0px black;
+    }
+
+    footer {
+        background-color: #97725E;
+    }
+
+    footer div ul {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        justify-content: space-around;
+        padding: 0 40px 30px 0;
+    }
+
+    footer img {
+        height: 80px;
+        width: 80px;
+    }
+
+    /* Familia */
+
+    .cont_1 {
+        display: grid;
+        grid-template-areas:
+            "c1 c2 c3"
+            "c4 c1 c2"
+            "c3 c4 c2"
+        ;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        padding: 40px;
+    }
+
+    #main_familia {
+        background-image: url(../img/map\ y\ vidio.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 20px;
+    }
+
+    .carousel {
+        -webkit-animation: tracking-in-contract-bck-top 6s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	    animation: tracking-in-contract-bck-top 6s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+
+    @-webkit-keyframes tracking-in-contract-bck-top {
+        0% {
+            letter-spacing: 1em;
+            -webkit-transform: translateZ(400px) translateY(-300px);
+            transform: translateZ(400px) translateY(-300px);
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 0.6;
+        }
+
+        100% {
+            -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes tracking-in-contract-bck-top {
+        0% {
+            letter-spacing: 1em;
+            -webkit-transform: translateZ(400px) translateY(-300px);
+            transform: translateZ(400px) translateY(-300px);
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 0.6;
+        }
+
+        100% {
+            -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .nav_famili {
+        display: flex;
+        position: static;
+    }
+
+    .h2_famili {
+        font-family: 'Times New Roman', Times, serif;
+        color: aliceblue;
+        text-shadow: 2px 2px 2px black;
+        font-size: 60px;
+    }
+}
